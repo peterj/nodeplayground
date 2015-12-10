@@ -1,0 +1,7 @@
+myapp1_image:
+  dockerfile: Dockerfile.release
+  build: .
+  ports:
+    - "3000:3000"
+  labels:
+    com.myapp1_image.environment: "release"
