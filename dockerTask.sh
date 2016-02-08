@@ -1,4 +1,4 @@
-imageName="myapp1_image"
+imageName="nodeplayground_image"
 publicPort=3000
 isWebProject=true
 

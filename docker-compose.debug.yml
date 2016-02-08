@@ -1,4 +1,4 @@
-myapp1_image:
+nodeplayground_image:
   dockerfile: Dockerfile.debug
   build: .
   ports:
@@ -6,4 +6,4 @@ myapp1_image:
   volumes:
     - .:/src
   labels:
-    com.myapp1_image.environment: "debug"
+    com.nodeplayground_image.environment: "debug"
