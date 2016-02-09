@@ -2,6 +2,6 @@ FROM node
 RUN mkdir /src
 COPY . /src
 WORKDIR /src
-EXPOSE 3000
+EXPOSE 1337
 RUN npm install
 CMD ["node", "./bin/www"]
