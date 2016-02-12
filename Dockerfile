@@ -4,4 +4,5 @@ COPY . /src
 WORKDIR /src
 EXPOSE 1337
 RUN npm install
-CMD ["node", "./bin/www"]
+RUN ls
+#CMD ["node", "./bin/www"]
