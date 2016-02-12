@@ -4,4 +4,4 @@ COPY . /src
 WORKDIR /src
 EXPOSE 1337
 RUN npm install
-CMD ["ls"]
+CMD ["/bin/bash"]
