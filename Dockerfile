@@ -1,7 +1,5 @@
 FROM node
-RUN mkdir /src
-COPY . /src
-WORKDIR /src
+COPY . /
 EXPOSE 1337
 RUN npm install
 RUN npm start
