@@ -1,5 +1,5 @@
 FROM node
 COPY . /
-EXPOSE 1337
+EXPOSE 8080
 RUN npm install
 CMD npm start
