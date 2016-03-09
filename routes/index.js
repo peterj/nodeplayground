@@ -4,6 +4,7 @@ var os = require('os');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+
   res.render('index', { title: 'Express', host: req.headers.host, platform: os.platform() });
 });
 
