@@ -1,9 +1,0 @@
-nodeplayground_image:
-  dockerfile: Dockerfile.debug
-  build: .
-  ports:
-    - "3000:3000"
-  volumes:
-    - .:/src
-  labels:
-    com.nodeplayground_image.environment: "debug"
